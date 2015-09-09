@@ -8215,7 +8215,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="JP3" library="SparkFun-Connectors" deviceset="AUDIO-JACK" device="SMD2"/>
+<part name="JP3" library="SparkFun-Connectors" deviceset="AUDIO-JACK" device="SMD2" value="3.5mm Jack"/>
 </parts>
 <sheets>
 <sheet>
@@ -8225,6 +8225,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <text x="236.22" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="116.84" y="114.3" size="1.778" layer="97" font="vector" ratio="15" align="center">VCC (+VS) +2.7V to +5.9V
 EXPECT UP TO VCC ON SIGNAL LINES</text>
+<text x="76.2" y="81.28" size="1.6764" layer="97" font="vector" ratio="15">Intended to accept CAB-12970</text>
 </plain>
 <instances>
 <instance part="JP6" gate="G$1" x="208.28" y="88.9" rot="R180"/>
