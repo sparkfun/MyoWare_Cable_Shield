@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8222,7 +8222,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <plain>
 <text x="166.116" y="11.43" size="2.54" layer="94">Brian E Kaminski of Advancer Technologies</text>
 <text x="148.59" y="7.366" size="2.54" layer="94" ratio="10">Revised by: Brent Wilkins</text>
-<text x="236.22" y="7.62" size="2.54" layer="94" font="vector">v01</text>
+<text x="236.22" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="116.84" y="114.3" size="1.778" layer="97" font="vector" ratio="15" align="center">VCC (+VS) +2.7V to +5.9V
 EXPECT UP TO VCC ON SIGNAL LINES</text>
 </plain>
