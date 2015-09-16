@@ -155,25 +155,25 @@
 <text x="20.47875" y="2.54" size="1.27" layer="21" font="vector" ratio="20" rot="R180" align="center-left">+</text>
 <text x="20.47875" y="-2.54" size="1.016" layer="21" font="vector" ratio="17" rot="R180" align="center-left">SIG</text>
 <text x="20.47875" y="0" size="1.27" layer="21" font="vector" ratio="17" rot="R180" align="center-left">-</text>
-<wire x1="-6.25475" y1="-10.3505" x2="18.2245" y2="-10.3505" width="0.2032" layer="20"/>
-<wire x1="6.25475" y1="10.3505" x2="-18.2245" y2="10.3505" width="0.2032" layer="20"/>
+<wire x1="-6.25475" y1="-10.414" x2="18.2245" y2="-10.414" width="0.2032" layer="20"/>
+<wire x1="6.25475" y1="10.414" x2="-18.2245" y2="10.414" width="0.2032" layer="20"/>
 <text x="13.51915" y="-7.5565" size="0.8128" layer="21" font="vector" ratio="20" align="bottom-center">M</text>
 <text x="8.46455" y="-7.62" size="0.8128" layer="21" font="vector" ratio="20" align="bottom-center">R</text>
 <text x="11.01725" y="-7.62" size="0.8128" layer="21" font="vector" ratio="20" align="bottom-center">E</text>
 <text x="-20.47875" y="2.54" size="1.016" layer="21" font="vector" ratio="17" align="center-left">RAW</text>
 <text x="-20.54225" y="0" size="1.016" layer="21" font="vector" ratio="17" align="center-left">SHLD</text>
-<wire x1="26.035" y1="3.6195" x2="26.035" y2="-2.54" width="0.2032" layer="20"/>
+<wire x1="26.162" y1="3.6195" x2="26.162" y2="-2.54" width="0.2032" layer="20"/>
 <wire x1="24.511" y1="5.1435" x2="11.46175" y2="5.1435" width="0.2032" layer="20"/>
-<wire x1="8.85825" y1="7.747" x2="6.25475" y2="10.3505" width="0.2032" layer="20" curve="90"/>
+<wire x1="8.85825" y1="7.747" x2="6.25475" y2="10.414" width="0.2032" layer="20" curve="90"/>
 <wire x1="8.85825" y1="7.747" x2="11.46175" y2="5.1435" width="0.2032" layer="20" curve="90"/>
-<wire x1="-26.035" y1="2.54" x2="-18.2245" y2="10.3505" width="0.2032" layer="20" curve="-90"/>
-<wire x1="18.2245" y1="-10.3505" x2="26.035" y2="-2.54" width="0.2032" layer="20" curve="90"/>
+<wire x1="-26.162" y1="2.54" x2="-18.2245" y2="10.414" width="0.2032" layer="20" curve="-90"/>
+<wire x1="18.2245" y1="-10.414" x2="26.162" y2="-2.54" width="0.2032" layer="20" curve="90"/>
 <text x="0" y="-8.89" size="1.27" layer="21" font="vector" ratio="20" align="center">Cable Shield</text>
-<wire x1="-26.035" y1="-3.6195" x2="-26.035" y2="2.54" width="0.2032" layer="20"/>
-<wire x1="-26.035" y1="-3.6195" x2="-24.511" y2="-5.1435" width="0.2032" layer="20" curve="90"/>
+<wire x1="-26.162" y1="-3.6195" x2="-26.162" y2="2.54" width="0.2032" layer="20"/>
+<wire x1="-26.162" y1="-3.6195" x2="-24.511" y2="-5.1435" width="0.2032" layer="20" curve="90"/>
 <wire x1="-24.511" y1="-5.1435" x2="-11.46175" y2="-5.1435" width="0.2032" layer="20"/>
 <wire x1="-8.85825" y1="-7.747" x2="-11.46175" y2="-5.1435" width="0.2032" layer="20" curve="90"/>
-<wire x1="-8.85825" y1="-7.747" x2="-6.25475" y2="-10.3505" width="0.2032" layer="20" curve="90"/>
+<wire x1="-8.85825" y1="-7.747" x2="-6.25475" y2="-10.414" width="0.2032" layer="20" curve="90"/>
 <text x="-20.54225" y="-2.54" size="1.016" layer="21" font="vector" ratio="17" align="center-left">GND</text>
 <text x="-1.27" y="-25.4" size="1.778" layer="51" font="vector">Brian E Kaminski of Advancer Technologies</text>
 <text x="-20.32" y="-27.94" size="1.778" layer="51" font="vector">Revised by: Brent Wilkins</text>
@@ -192,7 +192,7 @@
 <text x="13.35405" y="-7.5565" size="0.8128" layer="22" font="vector" ratio="20" rot="MR0" align="bottom-center">M</text>
 <text x="8.29945" y="-7.62" size="0.8128" layer="22" font="vector" ratio="20" rot="MR0" align="bottom-center">R</text>
 <text x="10.85215" y="-7.62" size="0.8128" layer="22" font="vector" ratio="20" rot="MR0" align="bottom-center">E</text>
-<wire x1="24.511" y1="5.1435" x2="26.035" y2="3.6195" width="0.2032" layer="20" curve="-90"/>
+<wire x1="24.511" y1="5.1435" x2="26.162" y2="3.6195" width="0.2032" layer="20" curve="-90"/>
 </plain>
 <libraries>
 <library name="advancer-technologies">
