@@ -7404,6 +7404,16 @@ design rules under a new name.</description>
 <approved hash="6,16,b71f68d7bb28db6c"/>
 <approved hash="6,16,b73c6616b4e5da43"/>
 <approved hash="6,16,c74ac884aaa21aff"/>
+<approved hash="2,20,61bf40857aa55b9f"/>
+<approved hash="2,20,61bf40857aa45b9e"/>
+<approved hash="6,1,3820d685e869b95f"/>
+<approved hash="6,1,50982ed0afc86e0c"/>
+<approved hash="6,1,757ba4568605e8a4"/>
+<approved hash="6,1,e1cafe833f859f5f"/>
+<approved hash="6,16,3820d685e869b95f"/>
+<approved hash="6,16,50982ed0afc86e0c"/>
+<approved hash="6,16,757ba4568605e8a4"/>
+<approved hash="6,16,e1cafe833f859f5f"/>
 </errors>
 </board>
 </drawing>
