@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -190,9 +190,13 @@
 <text x="8.29945" y="-7.62" size="0.8128" layer="22" font="vector" ratio="20" rot="MR0" align="bottom-center">R</text>
 <text x="10.85215" y="-7.62" size="0.8128" layer="22" font="vector" ratio="20" rot="MR0" align="bottom-center">E</text>
 <wire x1="24.511" y1="5.1435" x2="26.162" y2="3.6195" width="0.2032" layer="20" curve="-90"/>
-<dimension x1="-6.25475" y1="-10.414" x2="-18.2245" y2="10.414" x3="-32.258" y3="0" textsize="1.778" textratio="15" layer="47" dtype="vertical"/>
-<dimension x1="-26.162" y1="2.54" x2="26.162" y2="3.6195" x3="0" y3="16.256" textsize="1.778" textratio="15" layer="47" dtype="horizontal"/>
-<dimension x1="-22.1615" y1="6.477" x2="22.1615" y2="-6.477" x3="0" y3="12.446" textsize="1.778" textratio="15" layer="47" dtype="horizontal"/>
+<dimension x1="-6.25475" y1="-10.414" x2="-18.2245" y2="10.414" x3="-34.29" y3="0" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="-26.162" y1="2.54" x2="26.162" y2="3.6195" x3="0" y3="16.256" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="-22.1615" y1="6.477" x2="22.1615" y2="-6.477" x3="0" y3="12.446" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="-26.162" y1="2.54" x2="-22.1615" y2="6.477" x3="-24.16175" y3="12.446" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="-18.2245" y1="10.414" x2="-22.1615" y2="6.477" x3="-31.496" y3="8.4455" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="18.2245" y1="-10.414" x2="22.1615" y2="-6.477" x3="29.464" y3="-8.4455" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="26.162" y1="-2.54" x2="22.1615" y2="-6.477" x3="24.16175" y3="-13.716" textsize="1.778" layer="47" dtype="horizontal"/>
 </plain>
 <libraries>
 <library name="advancer-technologies">
