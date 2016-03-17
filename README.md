@@ -1,9 +1,9 @@
 MyoWare™ Cable Shield
 ========================================
 
-![MyoWare™ Cable Shield](URL for picture of part)
+![MyoWare™ Cable Shield](https://cdn.sparkfun.com//assets/parts/1/1/1/5/5/13687-01.jpg)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*MyoWare™ Cable Shield (DEV-13687)*](https://www.sparkfun.com/products/13687)
 
 The MyoWare™ Cable Shield is designed to pair with the MyoWare™ Muscle Sensor. This shield provides a jack for a [biomedical sensor pad cable](https://www.sparkfun.com/products/12970).
 
@@ -11,16 +11,15 @@ Repository Contents
 -------------------
 
 * **/Hardware** - Eagle design files (.brd, .sch)
+* **/Production** - Production panel files (.brd)
 
 Documentation
 --------------
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the MyoWare™ Cable Shield.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/myoware-muscle-sensor-kit)** - Basic hookup guide for the MyoWare™ Cable Shield.
 
 Product Versions
 ----------------
-* [v1.0](part URL)- MyoWare™ Cable Shield
+* [v1.0](https://www.sparkfun.com/products/13687)- MyoWare™ Cable Shield
 
 License Information
 -------------------
@@ -35,4 +34,4 @@ Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
 
-_<COLLABORATION CREDIT>_
+Designed by Brian E. Kaminski of Advancer Technologies
