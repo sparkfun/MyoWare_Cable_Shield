@@ -20,10 +20,10 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -177,11 +177,11 @@
 <text x="6.4262" y="7.874" size="1.016" layer="21" font="vector" ratio="17" align="center-left">GND</text>
 <text x="24.892" y="-14.986" size="1.778" layer="51" font="vector">Brian E Kaminski of Advancer Technologies</text>
 <text x="5.842" y="-17.526" size="1.778" layer="51" font="vector">Revised by: Elizabeth Robert</text>
-<text x="43.688" y="0.889" size="0.8128" layer="1" font="vector" ratio="20">v11</text>
+<text x="46.482" y="1.905" size="0.8128" layer="1" font="vector" ratio="20" rot="R180">v11</text>
 <text x="46.3042" y="12.954" size="1.27" layer="22" font="vector" ratio="20" rot="MR180" align="center-right">+</text>
 <text x="46.3042" y="7.874" size="1.016" layer="22" font="vector" ratio="17" rot="MR180" align="center-right">SIG</text>
 <text x="46.3042" y="10.414" size="1.27" layer="22" font="vector" ratio="17" rot="MR180" align="center-right">-</text>
-<text x="0" y="20.828" size="1.778" layer="47" font="vector" ratio="15" align="center">All units in inches</text>
+<text x="-9.2837" y="35.1282" size="1.778" layer="47" font="vector" ratio="15" align="center">All units in inches</text>
 <text x="6.2738" y="12.954" size="1.016" layer="22" font="vector" ratio="17" rot="MR0" align="center-right">RAW</text>
 <text x="6.2738" y="10.414" size="1.016" layer="22" font="vector" ratio="17" rot="MR0" align="center-right">SHLD</text>
 <text x="6.2738" y="7.874" size="1.016" layer="22" font="vector" ratio="17" rot="MR0" align="center-right">GND</text>
@@ -6611,14 +6611,14 @@
 <vertex x="19.825" y="19.111"/>
 <vertex x="19.825" y="18.841"/>
 </polygon>
-<dimension x1="1.5875" y1="12.954" x2="1.5875" y2="10.414" x3="-4.699" y3="11.684" textsize="1.778" layer="20"/>
-<dimension x1="0.127" y1="20.7645" x2="0.127" y2="0.0635" x3="-12.319" y3="10.414" textsize="1.778" layer="20"/>
-<dimension x1="0.127" y1="0.0635" x2="52.197" y2="0.635" x3="26.162" y3="-4.064" textsize="1.778" layer="20" dtype="horizontal"/>
-<dimension x1="4.0005" y1="16.891" x2="0" y2="12.954" x3="2.00025" y3="24.765" textsize="1.778" layer="20" dtype="horizontal"/>
-<dimension x1="48.3235" y1="3.937" x2="52.324" y2="4.191" x3="50.32375" y3="-5.588" textsize="1.778" layer="20" dtype="horizontal"/>
-<dimension x1="1.5875" y1="10.414" x2="1.5875" y2="7.874" x3="-8.001" y3="9.144" textsize="1.778" layer="20" dtype="horizontal"/>
-<dimension x1="4.0005" y1="16.891" x2="4.0005" y2="20.7264" x3="-1.7399" y3="18.8087" textsize="1.778" textratio="15" layer="20" unit="inch"/>
-<dimension x1="48.3235" y1="3.937" x2="48.2981" y2="0.0254" x3="55.738665625" y3="1.932965625" textsize="1.778" textratio="15" layer="20" unit="inch"/>
+<dimension x1="0.127" y1="20.7645" x2="0.127" y2="0.0635" x3="-12.319" y3="10.414" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0.127" y1="20.7645" x2="52.197" y2="20.7645" x3="26.162" y3="25.4" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="4.0005" y1="16.891" x2="48.3235" y2="3.937" x3="26.162" y3="28.8798" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="4.0005" y1="16.891" x2="48.3235" y2="3.937" x3="-4.1402" y3="10.414" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="4.0005" y1="16.891" x2="4.0767" y2="20.7645" x3="-16.9291" y3="18.82775" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="4.0005" y1="16.891" x2="0" y2="16.891" x3="2.00025" y3="30.734" textsize="1.778" layer="47"/>
+<dimension x1="48.3235" y1="3.937" x2="52.324" y2="3.937" x3="50.32375" y3="-3.0607" textsize="1.778" layer="47"/>
+<dimension x1="48.3235" y1="3.937" x2="48.3108" y2="0.0762" x3="61.854240625" y3="1.96206875" textsize="1.778" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -7155,58 +7155,18 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </signal>
 </signals>
 <errors>
-<approved hash="2,20,101ca3c699e52a3f"/>
-<approved hash="2,20,f41ed5c4eff2ce28"/>
-<approved hash="6,1,179bf938c3a49294"/>
-<approved hash="6,1,57f4dadaaf529df0"/>
-<approved hash="6,1,205ff1737e1010b0"/>
-<approved hash="6,1,47aea68676d0286b"/>
-<approved hash="6,16,179bf938c3a49294"/>
-<approved hash="6,16,57f4dadaaf529df0"/>
-<approved hash="6,16,205ff1737e1010b0"/>
-<approved hash="6,16,47aea68676d0286b"/>
-<approved hash="2,20,847908033231be4b"/>
-<approved hash="2,20,847908033230be4a"/>
-<approved hash="6,1,dee03042bd4eec7f"/>
-<approved hash="6,1,b71f68d7bb28db6c"/>
-<approved hash="6,1,b73c6616b4e5da43"/>
-<approved hash="6,1,c74ac884aaa21aff"/>
-<approved hash="6,16,dee03042bd4eec7f"/>
-<approved hash="6,16,b71f68d7bb28db6c"/>
-<approved hash="6,16,b73c6616b4e5da43"/>
-<approved hash="6,16,c74ac884aaa21aff"/>
-<approved hash="2,20,61bf40857aa55b9f"/>
-<approved hash="2,20,61bf40857aa45b9e"/>
-<approved hash="6,1,3820d685e869b95f"/>
-<approved hash="6,1,50982ed0afc86e0c"/>
-<approved hash="6,1,757ba4568605e8a4"/>
-<approved hash="6,1,e1cafe833f859f5f"/>
-<approved hash="6,16,3820d685e869b95f"/>
-<approved hash="6,16,50982ed0afc86e0c"/>
-<approved hash="6,16,757ba4568605e8a4"/>
-<approved hash="6,16,e1cafe833f859f5f"/>
 <approved hash="3,1,0eef63a0d392bedd"/>
+<approved hash="3,1,cec1218c91be7ef3"/>
+<approved hash="3,1,4d3ca0b21080fd0e"/>
 <approved hash="3,1,99219c619c9d99dd"/>
 <approved hash="3,16,99219c619c9d99dd"/>
 <approved hash="2,20,adbdf887f5a4a09e"/>
 <approved hash="2,20,b463fe9ffd9eb762"/>
 <approved hash="2,20,68bb23812fb0648a"/>
-<approved hash="4,1,e7a0293da92ce101"/>
-<approved hash="4,1,b25f8fdaec214268"/>
-<approved hash="4,1,f1b92907a866f5d8"/>
-<approved hash="4,1,b2819bdbf98043fe"/>
-<approved hash="4,1,95e75627a87a92ca"/>
-<approved hash="4,1,cdfdfdb99f2e3d16"/>
-<approved hash="4,1,e7a0293da92ce101"/>
-<approved hash="4,1,b25f8fdaec214268"/>
 <approved hash="6,1,333394b0382f0a68"/>
 <approved hash="6,1,c27cdbbf4999c595"/>
 <approved hash="6,1,ee250884bd29cec1"/>
 <approved hash="6,1,27eabf98fe8ef3bc"/>
-<approved hash="4,16,e7a0293da92ce101"/>
-<approved hash="4,16,f1b92907a866f5d8"/>
-<approved hash="4,16,95e75627a87a92ca"/>
-<approved hash="4,16,e7a0293da92ce101"/>
 <approved hash="6,16,333394b0382f0a68"/>
 <approved hash="6,16,c27cdbbf4999c595"/>
 <approved hash="6,16,ee250884bd29cec1"/>
