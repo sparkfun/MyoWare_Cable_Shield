@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8290,8 +8290,8 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <sheet>
 <plain>
 <text x="166.116" y="11.43" size="2.54" layer="94">Brian E Kaminski of Advancer Technologies</text>
-<text x="148.59" y="7.366" size="2.54" layer="94" ratio="10">Revised by: Elizabeth Robert</text>
-<text x="236.22" y="7.62" size="2.54" layer="94" font="vector">v11</text>
+<text x="148.59" y="7.366" size="2.54" layer="94" ratio="10">Revised by: Brent Wilkins</text>
+<text x="236.22" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="116.84" y="114.3" size="1.778" layer="97" font="vector" ratio="15" align="center">VCC (+VS) +2.7V to +5.9V
 EXPECT UP TO VCC ON SIGNAL LINES</text>
 <text x="76.2" y="81.28" size="1.6764" layer="97" font="vector" ratio="15">Intended to accept CAB-12970</text>
@@ -8318,6 +8318,34 @@ EXPECT UP TO VCC ON SIGNAL LINES</text>
 <busses>
 </busses>
 <nets>
+<net name="MID" class="0">
+<segment>
+<pinref part="JP4" gate="G$1" pin="3"/>
+<label x="109.728" y="91.694" size="1.778" layer="95"/>
+<wire x1="104.14" y1="91.44" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="SLEEVE"/>
+</segment>
+</net>
+<net name="END" class="0">
+<segment>
+<pinref part="JP4" gate="G$1" pin="2"/>
+<label x="109.728" y="89.154" size="1.778" layer="95"/>
+<wire x1="109.22" y1="88.9" x2="119.38" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="LEFT"/>
+<wire x1="104.14" y1="86.36" x2="106.68" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="86.36" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VREF" class="0">
+<segment>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<label x="109.728" y="86.614" size="1.778" layer="95"/>
+<wire x1="109.22" y1="86.36" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="RIGHT"/>
+<wire x1="104.14" y1="88.9" x2="106.68" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="88.9" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="SHIELD" class="0">
 <segment>
 <wire x1="53.34" y1="88.9" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
@@ -8371,36 +8399,6 @@ EXPECT UP TO VCC ON SIGNAL LINES</text>
 <wire x1="195.58" y1="91.44" x2="190.5" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="93.98" x2="195.58" y2="91.44" width="0.1524" layer="91"/>
 <junction x="195.58" y="91.44"/>
-</segment>
-</net>
-<net name="MID" class="0">
-<segment>
-<pinref part="JP4" gate="G$1" pin="3"/>
-<wire x1="119.38" y1="91.44" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="91.44" x2="106.68" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="LEFT"/>
-<wire x1="106.68" y1="86.36" x2="104.14" y2="86.36" width="0.1524" layer="91"/>
-<label x="114.3" y="91.44" size="1.778" layer="95"/>
-<label x="114.3" y="91.44" size="1.778" layer="95"/>
-<label x="114.3" y="91.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VREF" class="0">
-<segment>
-<pinref part="JP3" gate="G$1" pin="SLEEVE"/>
-<wire x1="104.14" y1="91.44" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="91.44" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="86.36" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
-<label x="114.3" y="86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="END" class="0">
-<segment>
-<pinref part="JP4" gate="G$1" pin="2"/>
-<pinref part="JP3" gate="G$1" pin="RIGHT"/>
-<wire x1="119.38" y1="88.9" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
-<label x="114.3" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
