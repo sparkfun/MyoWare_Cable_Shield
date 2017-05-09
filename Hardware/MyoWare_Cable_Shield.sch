@@ -8313,7 +8313,7 @@ EXPECT UP TO VCC ON SIGNAL LINES</text>
 <instance part="SUPPLY1" gate="G$1" x="195.58" y="93.98"/>
 <instance part="FID2" gate="G$1" x="241.3" y="25.4"/>
 <instance part="FID1" gate="G$1" x="241.3" y="33.02"/>
-<instance part="JP3" gate="G$1" x="99.06" y="88.9"/>
+<instance part="JP3" gate="G$1" x="101.6" y="88.9" rot="MR180"/>
 </instances>
 <busses>
 </busses>
@@ -8376,10 +8376,8 @@ EXPECT UP TO VCC ON SIGNAL LINES</text>
 <net name="MID" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="3"/>
-<wire x1="119.38" y1="91.44" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="91.44" x2="106.68" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="91.44" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="LEFT"/>
-<wire x1="106.68" y1="86.36" x2="104.14" y2="86.36" width="0.1524" layer="91"/>
 <label x="114.3" y="91.44" size="1.778" layer="95"/>
 <label x="114.3" y="91.44" size="1.778" layer="95"/>
 <label x="114.3" y="91.44" size="1.778" layer="95"/>
@@ -8388,10 +8386,8 @@ EXPECT UP TO VCC ON SIGNAL LINES</text>
 <net name="VREF" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="SLEEVE"/>
-<wire x1="104.14" y1="91.44" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="91.44" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="86.36" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="86.36" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
 <label x="114.3" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -8399,7 +8395,7 @@ EXPECT UP TO VCC ON SIGNAL LINES</text>
 <segment>
 <pinref part="JP4" gate="G$1" pin="2"/>
 <pinref part="JP3" gate="G$1" pin="RIGHT"/>
-<wire x1="119.38" y1="88.9" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="88.9" x2="106.68" y2="88.9" width="0.1524" layer="91"/>
 <label x="114.3" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
